@@ -35,30 +35,6 @@
         "NSMicrophoneUsageDescription": "Jitsi Meet requires access to your microphone in order to make calls (audio/video)."
       }
     },
-    "linux": {
-      "artifactName": "jitsi-meet-${arch}.${ext}",
-      "category": "VideoConference;AudioVideo;Audio;Video;Network",
-      "description": "Jitsi Meet Desktop App",
-      "executableName": "jitsi-meet",
-      "target": [
-        {
-          "arch": "x64",
-          "target": "AppImage"
-        }
-      ]
-    },
-    "win": {
-      "artifactName": "jitsi-meet.${ext}",
-      "target": [
-        {
-          "arch": [
-            "ia32",
-            "x64"
-          ],
-          "target": "nsis"
-        }
-      ]
-    },
     "directories": {
       "buildResources": "resources"
     }
